@@ -1,6 +1,7 @@
 <h1 align="center"> JOBAPP 👷‍♀️👷‍♂️ </h1>
 
-<p align="justify">Vitrine de vagas de trabalho</p>
+<p align="justify">Vitrine de vagas de trabalho onde as empresas fazem seus cadastros e postam as vagas de trabalho que estão em aberto.
+Projeto realizado para aprendizado e aperfeiçoamento do framework Django. </p>
 
 
 <img src="https://img.shields.io/static/v1?label=django&message=framework&color=blue&style=for-the-badge&logo=DJANGO"/>
@@ -12,7 +13,7 @@
 - [X] Primeira View renderizando a página Index.
 - [X] Criação do Template, View e URL HOME.
 - [ ] Configuração Banco de Dados.
-- [ ] Criação dos Model Usuário Login.
+- [ ] Criação do Model Usuário Login.
 - [ ] To be continued...
 
 
