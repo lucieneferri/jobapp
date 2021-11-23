@@ -8,8 +8,8 @@ def index(request):
 
 def loginPage(request):
     if request.method == 'POST':
-        username = request.username.POST.get('username')
-        password = request.password.POST.get('password')
+        username = request.POST.get('username')
+        password = request.POST.get('password')
 
         try: #ter certeza que o usuário existe no banco de dados
             user = User.objects.get(username=username)
@@ -26,15 +26,12 @@ def loginPage(request):
         else:
             messages.error(request, 'Username or Password does not exist')
 
-
-
-
-
-
-
-
     context={}
     return render(request, 'login_register.html', context)
+
+def logoutUser(request):
+    logout(request)
+    return redirect('index')
 
 def home(request):
     return render(request, 'home.html')
