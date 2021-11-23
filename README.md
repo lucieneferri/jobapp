@@ -4,7 +4,7 @@
 Projeto realizado para aprendizado e aperfeiçoamento do framework Django. </p>
 
 
-<img src="https://img.shields.io/static/v1?label=django&message=framework&color=blue&style=for-the-badge&logo=DJANGO"/>
+<img src="https://img.shields.io/static/v1?label=django&message=framework&color=green&style=for-the-badge&logo=DJANGO"/>
 
 <h2> TESK LIST </h2>
 
@@ -12,9 +12,7 @@ Projeto realizado para aprendizado e aperfeiçoamento do framework Django. </p>
 - [X] Inicializado servidor local.
 - [X] Primeira View renderizando a página Index.
 - [X] Criação do Template, View e URL HOME.
-- [ ] Configuração Banco de Dados.
-- [ ] Criação do Model Usuário Login.
-- [ ] To be continued...
+- [ ] Página de Login / Autenticação de usuário.
 
 
 > Status do Projeto: Em desenvolvimento :warning:
