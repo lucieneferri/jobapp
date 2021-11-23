@@ -12,7 +12,17 @@ Projeto realizado para aprendizado e aperfeiçoamento do framework Django. </p>
 - [X] Inicializado servidor local.
 - [X] Primeira View renderizando a página Index.
 - [X] Criação do Template, View e URL HOME.
-- [ ] Página de Login / Autenticação de usuário.
+- [X] Página/View e URL de Login.
+- [X] Autenticação de Usuário (authenticate from Django).
+    No código:
+      Busca o usuário e a senha,
+      Faz a checagem se o usuário existe no banco de dados,
+      Se sim, retorna um objeto que combine com as credenciais especificadas (authenticate),
+      Se o usuário não for None, loga ele na página (redireciona para a home) e cria uma sessão no banco de dados e no navegador para ele.
+- [X] Criação do Superuser.
+- [X] Logout do usuário. 
+- [X] Página de registro de usuário.(UserCreationForm)
+      
 
 
 > Status do Projeto: Em desenvolvimento :warning:
