@@ -7,8 +7,11 @@
 </head>
 <body>
     <h2>HOME PAGE</h2>
+    {% if request.user.is_authenticated %}
+    <p>Hello {{request.user}} </p>
 
     <a href="{% url 'index' %}">Logout</a>
+    {% endif %}
     
 </body>
 </html>
